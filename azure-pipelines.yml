@@ -56,4 +56,4 @@ trigger:
   
   - task: PublishBuildArtifacts@1
     displayName: 'Publish Artifact: drop'
-    condition: succeeded()git push origin build-pipeline
+    condition: succeeded()
